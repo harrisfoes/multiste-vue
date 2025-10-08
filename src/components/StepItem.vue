@@ -3,7 +3,7 @@ const props = defineProps<{ stepNum: number }>()
 </script>
 
 <template>
-  <span class="steps">{{ stepNum }}</span>
+  <span class="steps">{{ props.stepNum }}</span>
 </template>
 
 <style scoped>
